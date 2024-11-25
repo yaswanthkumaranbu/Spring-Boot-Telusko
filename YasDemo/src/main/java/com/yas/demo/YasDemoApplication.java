@@ -1,15 +1,13 @@
-package com.example.demo;
+package com.yas.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class YasDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-
-		System.out.println("Welcome spring boot...");
+		SpringApplication.run(YasDemoApplication.class, args);
 	}
 
 }

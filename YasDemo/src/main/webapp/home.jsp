@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	I am the number one!
+	I am the best!
+	I can do it!
+	God is always with me!
+	Today is my day!
 </body>
 </html>

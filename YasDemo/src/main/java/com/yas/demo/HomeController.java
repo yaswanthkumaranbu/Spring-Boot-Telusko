@@ -2,14 +2,16 @@ package com.yas.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+
+import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
 public class HomeController {
 	
 	@RequestMapping("home")
-	public String home() {
-		System.out.println("hii");
+	public String home(HttpServletRequest req) {
+		String name = req.getParameter("name");
+		System.out.println("hii "+name);
 		return "home.jsp";
 		
 	}

@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	I am the number one!
-	I am the best!
-	I can do it!
-	God is always with me!
-	Today is my day!
+	I am ${obj.aid}, ${obj.aname}, ${obj.lang} <br>
+	I am the number one! <br>
+	I am the best! <br>
+	I can do it! <br>
+	God is always with me! <br>
+	Today is my day! <br>
 </body>
 </html>
